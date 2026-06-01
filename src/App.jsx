@@ -59,21 +59,22 @@ export default function App() {
                 </p>
               </div>
 
-              {/* BOTONES ACCIÓN */}
-              <div className="flex flex-row md:flex-col gap-2 w-full md:w-auto shrink-0 text-xs font-semibold">
-                <button className="flex-1 bg-[#161b22] text-gray-400 px-4 py-2.5 rounded-lg transition text-center border border-gray-700 cursor-not-allowed">
-                  <a href="/cv-veronica.pdf" download="cv-veronica.pdf" className="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-gray-700 block">
-  Descargar CV
-</a>
-                </button>
-                <a href="https://www.linkedin.com/in/verónica-fernández-fernández-124257406" target="_blank" rel="noreferrer" className="flex-1 bg-[#1f6feb] hover:bg-blue-600 text-white px-4 py-2.5 rounded-lg transition text-center shadow-md block">
-                  LinkedIn
-                </a>
-                <a href="https://github.com/veronica10-tech" target="_blank" rel="noreferrer" className="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-gray-700 block">
-                  GitHub 🐙
-                </a>
-              </div>
-            </div>
+{/* BOTONES ACCIÓN */}
+      <div className="flex flex-row md:flex-col gap-2 w-full md:w-auto shrink-0 text-xs font-semibold">
+        <a 
+          href="/cv-veronica.pdf" 
+          download="CV_Veronica_DevOps.pdf" 
+          className="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-gray-700 block"
+        >
+          Descargar CV
+        </a>
+        <a href="https://www.linkedin.com/in/verónica-fernández-fernández-124257406" target="_blank" rel="noreferrer" className="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-gray-700 block">
+          LinkedIn
+        </a>
+        <a href="https://github.com/veronica10-tech" target="_blank" rel="noreferrer" className="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-gray-700 block">
+          GitHub 🐙
+        </a>
+      </div>           
           </div>
         </section>
 
