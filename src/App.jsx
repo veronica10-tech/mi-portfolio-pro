@@ -54,7 +54,7 @@ export default function App() {
               </a>
 
               <a 
-                href="https://www.linkedin.com/in/verónica-fernández-fernández-124257406" 
+                href="https://www.linkedin.com/in/veronica-fernandez-fernandez-124257406" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="w-full bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-gray-800 shadow-sm"
