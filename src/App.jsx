@@ -42,7 +42,7 @@ export default function App() {
               </p>
               
               <p className="text-sm text-gray-400 max-w-3xl leading-relaxed">
-                Orientada a construir entornos reproducibles, seguros y altamente observables. Experiencia práctica empaquetando servicios web mediante <strong className="text-white">Docker</strong>, desplegando arquitecturas microservicios en <strong className="text-white">Kubernetes</strong> y automatizando flujos de despliegue para optimizar la entrega de software.
+                Orientada a construir entornos reproducibles, seguros y altamente observables. Experiencia práctica empaquetando servicios web mediante <strong className="stone-900">Docker</strong>, desplegando arquitecturas microservicios en <strong className="stone-900">Kubernetes</strong> y automatizando flujos de despliegue para optimizar la entrega de software.
               </p>
             </div>
 
