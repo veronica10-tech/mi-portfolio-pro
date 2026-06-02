@@ -46,7 +46,7 @@ export default function App() {
             {/* BOTONES ACCIÓN NUEVO */}
             <div className="flex flex-col gap-2 w-full md:w-auto shrink-0 text-xs font-semibold min-w-[160px]">
               <a 
-                href="/cv-veronica.pdf" 
+                href="/cv-veronica-devops.pdf" 
                 download 
                 className="w-full bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-zinc-700"
               >
