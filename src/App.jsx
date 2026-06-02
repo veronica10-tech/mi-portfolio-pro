@@ -80,7 +80,7 @@ export default function App() {
         {/* SECCIÓN CONOCIMIENTOS TÉCNICOS */}
         <section className="mb-8">
           <h3 className="text-lg font-bold text-amber-800 mb-4 flex items-center gap-2">
-            <span className="text-xl font-bold text-stone-800 mb-6">#</span> Conocimientos Técnicos
+            <span className="text-xl font-bold text-amber-800 mb-4">#</span> Conocimientos Técnicos
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-[#161b22] border border-gray-800 rounded-xl p-5 space-y-2">
@@ -105,7 +105,7 @@ export default function App() {
         {/* SECCIÓN PROYECTOS */}
         <section className="mb-8">
           <h3 className="text-lg font-bold text-amber-800 mb-4 flex items-center gap-2">
-            <span className="text-xl font-bold text-stone-800 mb-6">#</span> Proyectos Destacados
+            <span className="text-xl font-bold text-amber-800 mb-4">#</span> Proyectos Destacados
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Proyecto 1 */}
