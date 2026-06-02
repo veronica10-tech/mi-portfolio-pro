@@ -78,7 +78,7 @@ export default function App() {
         </section>
 
         {/* SECCIÓN CONOCIMIENTOS TÉCNICOS */}
-        <section className="mb-8">
+        <section className="mb-4">
           <h3 className="text-lg font-bold text-amber-900 mb-4 flex items-center gap-2">
             <span className="text-amber-700">#</span>Conocimientos Técnicos
           </h3>
@@ -103,7 +103,7 @@ export default function App() {
         </section>
 
         {/* SECCIÓN PROYECTOS */}
-        <section className="mb-8">
+        <section className="mb-4">
           <h3 className="text-lg font-bold text-amber-900 mb-4 flex items-center gap-2">
             <span className="text-amber-700">#</span> Proyectos Destacados
           </h3>
