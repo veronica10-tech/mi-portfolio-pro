@@ -1,24 +1,24 @@
 export default function App() {
   return (
-<div className="min-h-screen bg-slate-50 text-slate-800 font-sans antialiased pb-12">
+<div className="min-h-screen bg-[#f7f4ef] text-stone-800 font-sans antialiased pb-12">
     {/* CABECERA HERO */}
-    <header className="relative w-full h-48 md:h-64 bg-gradient-to-r from-slate-200 via-blue-100 to-slate-200 flex flex-col justify-center px-6 md:px-12 rounded-b-2xl shadow-sm">
-      <h1 className="text-2xl md:text-5xl font-extrabold text-slate-900 tracking-tight mb-2">
+    <header className="relative w-full h-48 md:h-64 bg-gradient-to-r from-[#eaddcf] via-[#f1eae1] to-[#eaddcf] flex flex-col justify-center px-6 md:px-12 rounded-b-2xl shadow-sm">
+      <h1 className="text-2xl md:text-5xl font-extrabold text-stone-900 tracking-tight mb-2">
         DevOps & Cloud Engineer
       </h1>
-      <p className="text-blue-600 text-xs md:text-sm tracking-widest uppercase font-mono">
+      <p className="text-amber-800 text-xs md:text-sm tracking-widest uppercase font-mono">
         CI/CD • Containers • Kubernetes • Infrastructure as Code
       </p>
     </header>
-      {/* CUERPO PRINCIPAL */}
+          {/* CUERPO PRINCIPAL */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-14 relative z-10">
         
         {/* TARJETA DE PERFIL */}
-        <section className="bg-white rounded-xl border border-slate-200 p-6 relative shadow-md mb-8">
+        <section className="bg-[#faf9f6] rounded-xl border border-stone-200 p-6 relative shadow-md mb-8">
           {/* Avatar / Badge */}
 {/*/* Avatar / Badge */}
 <div className="absolute -top-12 left-6">
-  <div className="w-24 h-24 rounded-full border-4 border-teal-400 overflow-hidden bg-zinc-800 flex items-center justify-center">
+  <div className="w-24 h-24 rounded-full border-4 border-amber-700/20 bg-stone-100 flex items-center justify-center">
     <img 
       src="/perfil.jpeg" 
       alt="Foto de perfil de Verónica" 
@@ -51,7 +51,7 @@ export default function App() {
               <a 
                 href="/cv-veronica-devops.pdf" 
                 download 
-                className="w-full bg-zinc-800 hover:bg-zinc-700 text-white px-4 py-2.5 rounded-lg transition text-center border border-zinc-700"
+                className="w-full bg-stone-800 hover:bg-stone-700 text-stone-100 px-4 py-2.5 rounded-lg transition text-center border border-zinc-700"
               >
                 Descargar CV
               </a>
