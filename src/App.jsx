@@ -43,7 +43,7 @@ export default function App() {
               </p>
             </div>
 
-            {/* BOTONES ACCIÓN */}
+            {/* BOTONES ACCIÓN NUEVO */}
             <div className="flex flex-col gap-2 w-full md:w-auto shrink-0 text-xs font-semibold min-w-[160px]">
               <a 
                 href="/cv-veronica.pdf" 
