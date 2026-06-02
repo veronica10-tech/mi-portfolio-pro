@@ -17,12 +17,13 @@ export default function App() {
         <section className="bg-[#faf9f6] rounded-xl border border-stone-200 p-6 relative shadow-md mb-8">
           {/* Avatar / Badge */}
 {/*/* Avatar / Badge */}
-<div className="absolute -top-12 left-6">
-<div className="w-24 h-24 rounded-2xl border-4 border-stone-800 bg-stone-100 flex items-center justify-center overflow-hidden shadow-md">    <img 
-      src="/perfil.jpeg" 
-      alt="Foto de perfil de Verónica" 
-      className="w-full h-full object-cover"
-    />
+<div className="absolute -top-8 left-6">
+<div className="w-24 h-24 rounded-full border-4 border-[#faf9f6] bg-stone-100 flex items-center justify-center overflow-hidden shadow-sm">
+          <img
+            src="/perfil.jpeg"
+            alt="Foto de perfil de Verónica"
+            className="w-full h-full object-cover"
+          />
   </div>
 </div>
           {/* Información de Perfil */}
