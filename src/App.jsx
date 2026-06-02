@@ -18,8 +18,7 @@ export default function App() {
           {/* Avatar / Badge */}
 {/*/* Avatar / Badge */}
 <div className="absolute -top-12 left-6">
-  <div className="w-24 h-24 rounded-full border-4 border-amber-700/20 bg-stone-100 flex items-center justify-center">
-    <img 
+<div className="w-24 h-24 rounded-2xl border-4 border-stone-800 bg-stone-100 flex items-center justify-center overflow-hidden shadow-md">    <img 
       src="/perfil.jpeg" 
       alt="Foto de perfil de Verónica" 
       className="w-full h-full object-cover"
@@ -30,7 +29,7 @@ export default function App() {
           <div className="pt-12 flex flex-col md:flex-row md:items-start md:justify-between gap-6">
             <div className="space-y-3 flex-1">
               <div className="flex items-center gap-3 flex-wrap">
-                <h2 className="text-2xl md:text-3xl font-bold text-white">Verónica</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-stone-900">Verónica</h2>
                 <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                   <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                   Disponible para proyectos / Roles
