@@ -120,8 +120,8 @@ export default function App() {
                 </p>
                 {/* BOTONES DE ACCIÓN */}
                 <div className="flex gap-3 pt-2">
-                  <a href="URL_GITHUB_PROYECTO_1" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-blue-400 hover:text-blue-300 border-b border-blue-400/30">Source Code</a>
-                  <a href="URL_VERCEL_PROYECTO_1" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-emerald-400 hover:text-emerald-300 border-b border-emerald-400/30">Live Demo</a>
+                  <a href="https://github.com/veronicafdezf-collab" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-blue-400 hover:text-blue-300 border-b border-blue-400/30">Source Code</a>
+                  <a href="https://vercel.com/veronica-s-projects12" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-emerald-400 hover:text-emerald-300 border-b border-emerald-400/30">Live Demo</a>
                 </div>
               </div>
               <div className="p-4 pt-0 flex flex-wrap gap-1.5 border-t border-gray-800/50 mt-auto bg-black/10">
