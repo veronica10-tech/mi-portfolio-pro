@@ -120,8 +120,8 @@ export default function App() {
                 </p>
                 {/* BOTONES DE ACCIÓN */}
                 <div className="flex gap-3 pt-2">
-                  <a href="https://github.com/veronicafdezf-collab" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-blue-400 hover:text-blue-300 border-b border-blue-400/30">Source Code</a>
-                  <a href="https://vercel.com/veronica-s-projects12" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-emerald-400 hover:text-emerald-300 border-b border-emerald-400/30">Live Demo</a>
+                  <a href="https://github.com/veronicafdezf-collab/mi-portfolio-pro" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-blue-400 hover:text-blue-300 border-b border-blue-400/30">Source Code</a>
+                  <a href="https://vercel.com/new/veronica-s-projects12/success?auto-redirect=true&developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=mi-portfolio-pro-flg3-3w6oupcth-veronica-s-projects12.vercel.app&projectName=mi-portfolio-pro-flg3&s=https%3A%2F%2Fgithub.com%2Fveronica10-tech%2Fmi-portfolio-pro&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1&flow-id=2uVtiohpuovUoVSrfKedj" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-emerald-400 hover:text-emerald-300 border-b border-emerald-400/30">Live Demo</a>
                 </div>
               </div>
               <div className="p-4 pt-0 flex flex-wrap gap-1.5 border-t border-gray-800/50 mt-auto bg-black/10">
@@ -142,8 +142,8 @@ export default function App() {
                 </p>
                 {/* BOTONES DE ACCIÓN */}
                 <div className="flex gap-3 pt-2">
-                  <a href="https://github.com/veronicafdezf-collab" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-blue-400 hover:text-blue-300 border-b border-blue-400/30">Source Code</a>
-                  <a href="https://vercel.com/veronica-s-projects12" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-emerald-400 hover:text-emerald-300 border-b border-emerald-400/30">Live Demo</a>
+                  <a href="https://github.com/veronicafdezf-collab/mi-portfolio-pro" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-blue-400 hover:text-blue-300 border-b border-blue-400/30">Source Code</a>
+                  <a href="https://vercel.com/new/veronica-s-projects12/success?auto-redirect=true&developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=mi-portfolio-pro-flg3-3w6oupcth-veronica-s-projects12.vercel.app&projectName=mi-portfolio-pro-flg3&s=https%3A%2F%2Fgithub.com%2Fveronica10-tech%2Fmi-portfolio-pro&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1&flow-id=2uVtiohpuovUoVSrfKedj" target="_blank" rel="noreferrer" className="text-[10px] font-bold text-emerald-400 hover:text-emerald-300 border-b border-emerald-400/30">Live Demo</a>
                 </div>
               </div>
               <div className="p-4 pt-0 flex flex-wrap gap-1.5 border-t border-gray-800/50 mt-auto bg-black/10">
