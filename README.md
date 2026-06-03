@@ -1,3 +1,5 @@
+[![Vercel Deployment Status](https://img.shields.io/badge/Vercel-Deployed-brightgreen)](https://mi-portfolio-pro.vercel.app/)
+
 Este portfolio es una aplicación web moderna diseñada para la máxima escalabilidad y rendimiento.
 
 Características técnicas:
