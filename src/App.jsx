@@ -136,7 +136,6 @@ export default function App() {
                 <span className="inline-block bg-purple-500/10 text-purple-400 text-[10px] font-mono px-2 py-0.5 rounded border border-purple-500/20">
                   CI/CD • GitHub Actions
                 </span>
-// Busca tu componente y cambia el texto:
 <h4 className="text-base font-bold text-white">
   Pipeline de CI/CD Automático / Automated CI/CD Pipeline
 </h4>
