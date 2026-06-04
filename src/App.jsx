@@ -16,10 +16,10 @@ export default function App() {
       {/* CABECERA HERO */}
       <header className="relative w-full h-48 md:h-64 bg-gradient-to-r from-[#eaddcf] via-[#f1eae1] to-[#eaddcf] flex flex-col justify-center px-6 md:px-12 rounded-b-2xl shadow-sm">
         <h1 className="text-2xl md:text-5xl font-extrabold text-stone-900 tracking-tight mb-2">
-          {lang === 'ES' ? 'Francisco Javier Sánchez' : 'Francisco Javier Sánchez'}
+          {lang === 'ES' ? 'Verónica Fernández' : 'Verónica Fernández'}
         </h1>
         <p className="text-amber-800 text-xs md:text-sm tracking-widest uppercase font-mono">
-          CI/CD • Containers • Kubernetes • Infrastructure as Code
+          DevOps & Cloud Engineer
         </p>
       </header>
 
@@ -36,24 +36,24 @@ export default function App() {
           
           <div className="pt-12 flex flex-col md:flex-row md:items-start md:justify-between gap-6">
             <div className="space-y-3 flex-1">
-              <h2 className="text-2xl md:text-3xl font-bold text-stone-900">Verónica</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-stone-900">Verónica Fernández</h2>
               <p className="text-sm text-gray-400 max-w-3xl leading-relaxed">
                 {lang === 'ES' 
-                  ? "Orientada a construir entornos reproducibles y seguros. Experiencia con Docker, Kubernetes y automatización." 
-                  : "Focused on building reproducible and secure environments. Experience with Docker, Kubernetes, and automation."}
+                  ? "Orientada a construir entornos reproducibles, seguros y altamente observables. Experiencia en Docker, Kubernetes y automatización CI/CD." 
+                  : "Focused on building reproducible, secure, and highly observable environments. Experience with Docker, Kubernetes, and CI/CD automation."}
               </p>
             </div>
 
             <div className="flex flex-col gap-2 w-full md:w-auto shrink-0 text-xs font-semibold">
               <a href="/cv-veronica-devops.pdf" className="w-full bg-stone-800 text-stone-100 px-4 py-2.5 rounded-lg text-center">CV</a>
-              <a href="https://linkedin.com/in/veronica" className="w-full bg-zinc-800 text-white px-4 py-2.5 rounded-lg text-center">LinkedIn</a>
+              <a href="https://linkedin.com/in/veronica-fernandez-fernandez-124257406" target="_blank" rel="noreferrer" className="w-full bg-zinc-800 text-white px-4 py-2.5 rounded-lg text-center">LinkedIn</a>
             </div>
           </div>
         </section>
 
         {/* PIE DE PÁGINA */}
         <footer className="w-full text-center py-6 text-gray-500 text-xs border-t border-gray-800 mt-12">
-          © {new Date().getFullYear()} Verónica. Todos los derechos reservados.
+          © {new Date().getFullYear()} Verónica Fernández. Todos los derechos reservados.
         </footer>
       </main>
     </div>
