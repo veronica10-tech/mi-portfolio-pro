@@ -182,3 +182,22 @@
     border-right-color: var(--border);
   }
 }
+.language-selector {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #a0a0a0;
+}
+
+.language-selector span {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.language-selector span:hover {
+  color: white;
+}

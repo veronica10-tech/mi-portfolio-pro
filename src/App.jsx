@@ -1,6 +1,11 @@
 export default function App() {
   return (
 <div className="min-h-screen bg-[#f7f4ef] text-stone-800 font-sans antialiased pb-12">
+  <div className="language-selector">
+  <span>ES</span>
+  <span>|</span>
+  <span>EN</span>
+</div>
     {/* CABECERA HERO */}
     <header className="relative w-full h-48 md:h-64 bg-gradient-to-r from-[#eaddcf] via-[#f1eae1] to-[#eaddcf] flex flex-col justify-center px-6 md:px-12 rounded-b-2xl shadow-sm">
       <h1 className="text-2xl md:text-5xl font-extrabold text-stone-900 tracking-tight mb-2">
