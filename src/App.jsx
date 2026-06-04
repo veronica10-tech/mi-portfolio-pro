@@ -1,11 +1,22 @@
+import { useState } from 'react'; // 1. Importa useState arriba del todo
+
 export default function App() {
+  const [lang, setLang] = useState('ES'); // 2. Crea el estado
+
   return (
-<div className="min-h-screen bg-[#f7f4ef] text-stone-800 font-sans antialiased pb-12">
-  <div className="language-selector">
-  <span>ES</span>
-  <span>|</span>
-  <span>EN</span>
-</div>
+    <div className="min-h-screen ...">
+      {/* 3. El selector ahora cambia el estado */}
+      <div className="language-selector">
+        <span onClick={() => setLang('ES')} style={{ color: lang === 'ES' ? 'blue' : 'black' }}>ES</span>
+        <span>|</span>
+        <span onClick={() => setLang('EN')} style={{ color: lang === 'EN' ? 'blue' : 'black' }}>EN</span>
+      </div>
+      
+      {/* 4. Aquí usarías la variable 'lang' para mostrar el contenido */}
+      <h1>{lang === 'ES' ? 'Hola' : 'Hello'}</h1>
+    </div>
+  );
+}
     {/* CABECERA HERO */}
     <header className="relative w-full h-48 md:h-64 bg-gradient-to-r from-[#eaddcf] via-[#f1eae1] to-[#eaddcf] flex flex-col justify-center px-6 md:px-12 rounded-b-2xl shadow-sm">
       <h1 className="text-2xl md:text-5xl font-extrabold text-stone-900 tracking-tight mb-2">
