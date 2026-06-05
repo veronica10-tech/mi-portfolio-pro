@@ -61,13 +61,43 @@ export default function App() {
   </div>
 </section>
 
-        <section id="skills" className="mb-4">
-          <h3 className="text-lg font-bold text-amber-900 mb-4"># {lang === 'ES' ? 'Conocimientos Técnicos' : 'Technical Skills'}</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-[#161b22] border border-gray-800 rounded-xl p-5 text-white">Cloud & Orquestación</div>
-          </div>
-        </section>
+<section id="skills" className="mb-12">
+  <h3 className="text-xl font-bold text-amber-900 mb-6 flex items-center gap-2">
+    <span className="text-amber-700">#</span> {lang === 'ES' ? 'Conocimientos Técnicos' : 'Technical Skills'}
+  </h3>
+  
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {/* Tarjeta 1: Cloud & Infra */}
+    <div className="bg-[#161b22] border border-gray-800 rounded-xl p-6 hover:border-amber-700/50 transition-colors">
+      <h4 className="font-bold text-white mb-3 flex items-center gap-2">☁️ Cloud & Infra</h4>
+      <ul className="text-xs text-gray-400 space-y-2">
+        <li>• Terraform / IaC</li>
+        <li>• AWS / Azure basics</li>
+        <li>• Redes y VPCs</li>
+      </ul>
+    </div>
 
+    {/* Tarjeta 2: Orquestación */}
+    <div className="bg-[#161b22] border border-gray-800 rounded-xl p-6 hover:border-amber-700/50 transition-colors">
+      <h4 className="font-bold text-white mb-3 flex items-center gap-2">📦 Orquestación</h4>
+      <ul className="text-xs text-gray-400 space-y-2">
+        <li>• Kubernetes (K8s)</li>
+        <li>• Docker & Compose</li>
+        <li>• Gestión de volúmenes</li>
+      </ul>
+    </div>
+
+    {/* Tarjeta 3: CI/CD & Herramientas */}
+    <div className="bg-[#161b22] border border-gray-800 rounded-xl p-6 hover:border-amber-700/50 transition-colors">
+      <h4 className="font-bold text-white mb-3 flex items-center gap-2">🚀 CI/CD & DevOps</h4>
+      <ul className="text-xs text-gray-400 space-y-2">
+        <li>• GitHub Actions</li>
+        <li>• Git Flow</li>
+        <li>• Monitoreo (Observabilidad)</li>
+      </ul>
+    </div>
+  </div>
+</section>
         <section id="proyectos" className="mb-4">
           <h3 className="text-lg font-bold text-amber-900 mb-4"># {lang === 'ES' ? 'Proyectos Destacados' : 'Featured Projects'}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
