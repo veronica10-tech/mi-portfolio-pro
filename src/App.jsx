@@ -56,7 +56,7 @@ export default function App() {
   <div className="pt-12">
     <h2 className="text-2xl font-bold">Verónica</h2>
     <p className="text-sm text-gray-600 mt-2">
-      {lang === 'ES' ? 'Orientada a construir entornos reproducibles, seguros y altamente observables.Experiencia práctica empaquetando servicios web medienate Docker, desplegando arquitecturas microservicios en Kubernetes y automatización de flujos de despliegue para optimizar la entrega de sofware.' : 'Focused on building reproducible and secure environments.'}
+      {lang === 'ES' ? 'Orientada a construir entornos reproducibles, seguros y altamente observables. Experiencia práctica empaquetando servicios web mediante Docker, desplegando arquitecturas microservicios en Kubernetes y automatización de flujos de despliegue para optimizar la entrega de software.' : 'Focused on building reproducible and secure environments.'}
     </p>
   </div>
 </section>
