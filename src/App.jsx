@@ -56,7 +56,7 @@ export default function App() {
   <div className="pt-12">
     <h2 className="text-2xl font-bold">Verónica</h2>
     <p className="text-sm text-gray-600 mt-2">
-      {lang === 'ES' ? 'Orientada a construir entornos reproducibles y seguros.' : 'Focused on building reproducible and secure environments.'}
+      {lang === 'ES' ? 'Orientada a construir entornos reproducibles, seguros y altamente observables.Experiencia práctica empaquetando servicios web medienate Docker, desplegando arquitecturas microservicios en Kubernetes y automatización de flujos de despliegue para optimizar la entrega de sofware.' : 'Focused on building reproducible and secure environments.'}
     </p>
   </div>
 </section>
@@ -77,7 +77,7 @@ export default function App() {
 
         <section id="contacto" className="mb-12 p-8 text-center bg-stone-200 rounded-xl">
           <h3 className="text-xl font-bold text-stone-900 mb-4">Contacto</h3>
-          <p className="text-stone-700">¿Quieres trabajar conmigo? ¡Escríbeme!</p>
+          <p className="text-stone-700"></p>
           <a href="mailto:veronicafdezf@gmail.com" className="text-amber-800 font-bold hover:underline">
             veronicafdezf@gmail.com
           </a>
