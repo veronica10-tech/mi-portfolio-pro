@@ -33,13 +33,7 @@ export default function App() {
 
       {/* CUERPO PRINCIPAL - Contiene todo el contenido */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
-        <section id="perfil" className="bg-[#faf9f6] rounded-xl border border-stone-200 p-6 -mt-8 shadow-md mb-8">
-          <h2 className="text-2xl font-bold">Verónica</h2>
-          <p className="text-sm text-gray-600 mt-2">
-            {lang === 'ES' ? 'Orientada a construir entornos reproducibles...' : 'Focused on building reproducible and secure environments.'}
-          </p>
-          <section id="perfil" className="bg-[#faf9f6] rounded-xl border border-stone-200 p-6 -mt-8 shadow-md mb-8">
+            <section id="perfil" className="bg-[#faf9f6] rounded-xl border border-stone-200 p-6 -mt-8 shadow-md mb-8">
   <h2 className="text-2xl font-bold">Verónica</h2>
   <p className="text-sm text-gray-600 mt-2">
     {lang === 'ES' ? 'Orientada a construir entornos reproducibles, seguros y altamente observables. Experiencia práctica empaquetando servicios web mediante Docker, desplegando arquitecturas microservicios en kubernetes y automatizando flujos de despliegue.' : 'Focused on building reproducible and secure environments.'}
@@ -58,7 +52,6 @@ export default function App() {
     </a>
   </div>
 </section>
-        </section>
 
         <section id="skills" className="mb-12">
           <h3 className="text-xl font-bold text-amber-900 mb-6">Skills</h3>
