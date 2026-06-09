@@ -34,7 +34,7 @@ export default function App() {
       {/* CUERPO PRINCIPAL - Contiene todo el contenido */}
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <section id="perfil" className="bg-[#faf9f6] rounded-xl border border-stone-200 p-6 -mt-8 shadow-md mb-8">
-              <div className="absolute -top-8 left-6">
+              <div className="absolute -top-16 left-6">
     <div className="w-24 h-24 rounded-full border-4 border-[#faf9f6] bg-stone-100 flex items-center justify-center overflow-hidden shadow-sm">
       <img src="/perfil.jpg" alt="Foto de perfil de Verónica" className="w-full h-full object-cover" />
     </div>
