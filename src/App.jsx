@@ -58,24 +58,39 @@ export default function App() {
   </div>
 </section>
 
-<section id="skills" className="mb-12">
-  <h3 className="text-xl font-bold text-amber-900 mb-6">Skills</h3>
-  
-  {/* Grid para que las tarjetas se organicen en bloques */}
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-    {['Docker', 'Kubernetes', 'Azure', 'Terraform', 'AWS', 'GitHub Actions', 'Python', 'Linux'].map((skill) => (
+<section id="enfoque" className="mb-12">
+  <h3 className="text-xl font-bold text-amber-900 mb-6">Enfoque Profesional</h3>
+  <div className="grid grid-cols-1 gap-4">
+    {[
+      { 
+        title: "Estrategias de Branching y CI/CD", 
+        desc: "Diseño de pipelines con disparadores automatizados basados en ramas Feature y GitFlow, controlando la compilación, testing y versionado dinámico.",
+        icon: "⚙️" 
+      },
+      { 
+        title: "Orquestación y Resiliencia", 
+        desc: "Administración avanzada de clústeres Kubernetes: gestión de namespaces, deployments, configuración de Ingress, certificados SSL y troubleshooting con k9s.",
+        icon: "🚀" 
+      },
+      { 
+        title: "Seguridad e Inmutabilidad", 
+        desc: "Aislamiento de red (VPC), automatización con Terraform y abstracción de credenciales críticas mediante inyección dinámica de Kubernetes Secrets.",
+        icon: "🛡️" 
+      }
+    ].map((item, index) => (
       <div 
-        key={skill} 
-        className="h-32 flex items-center justify-center border-2 border-stone-200 bg-white rounded-xl shadow-sm transition-all duration-300 hover:border-amber-700 hover:shadow-lg hover:scale-105 cursor-pointer"
+        key={index}
+        className="flex items-start p-6 bg-[#0a192f] border border-stone-800 rounded-xl transition-all duration-300 hover:border-amber-600 hover:bg-[#112240] cursor-pointer group"
       >
-        <span className="font-bold text-stone-700 text-center px-2">
-          {skill}
-        </span>
+        <div className="text-3xl mr-6 mt-1 group-hover:scale-110 transition-transform">{item.icon}</div>
+        <div>
+          <h4 className="text-lg font-bold text-white mb-2">{item.title}</h4>
+          <p className="text-sm text-stone-400 leading-relaxed">{item.desc}</p>
+        </div>
       </div>
     ))}
   </div>
 </section>
-
         <section id="proyectos" className="mb-12">
           <h3 className="text-xl font-bold text-amber-900 mb-6">Proyectos</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
