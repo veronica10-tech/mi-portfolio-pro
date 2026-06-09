@@ -39,18 +39,7 @@ export default function App() {
           <p className="text-sm text-gray-600 mt-2">
             {lang === 'ES' ? 'Orientada a construir entornos reproducibles...' : 'Focused on building reproducible and secure environments.'}
           </p>
-          <div className="flex flex-wrap gap-4 mt-6 border-t border-stone-100 pt-6">
-    <a href="/cv-veronica-devops.pdf" target="_blank" className="text-xs font-bold bg-amber-800 text-white px-4 py-2 rounded-lg hover:bg-amber-900 transition">
-      {lang === 'ES' ? 'Descargar CV' : 'Download CV'}
-    </a>
-    <a href="https://github.com/veronicafdezf-collab/mi-portfolio-pro" target="_blank" className="text-xs font-bold bg-stone-800 text-white px-4 py-2 rounded-lg hover:bg-black transition">
-      GitHub
-    </a>
-    <a href="www.linkedin.com/in/verónica-fernández-fernández-124257406" target="_blank" className="text-xs font-bold bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition">
-      LinkedIn
-    </a>
-  </div>
-</section>
+        </section>
 
         <section id="skills" className="mb-12">
           <h3 className="text-xl font-bold text-amber-900 mb-6">Skills</h3>
