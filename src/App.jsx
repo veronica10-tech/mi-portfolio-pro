@@ -58,13 +58,18 @@ export default function App() {
   </div>
 </section>
 
+{/* SECCIÓN SKILLS */}
         <section id="skills" className="mb-12">
           <h3 className="text-xl font-bold text-amber-900 mb-6">Skills</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Aquí irían tus tarjetas de skills */}
+          <div className="flex flex-wrap gap-3">
+            {['Docker', 'Kubernetes', 'Azure', 'Terraform', 'AWS', 'GitHub Actions', 'Python', 'Linux', 'Prometheus'].map((skill) => (
+              <span key={skill} className="px-3 py-1 bg-stone-200 text-stone-800 text-xs font-semibold rounded-full hover:bg-stone-300 transition cursor-default">
+                {skill}
+              </span>
+            ))}
           </div>
         </section>
-
+        
         <section id="proyectos" className="mb-12">
           <h3 className="text-xl font-bold text-amber-900 mb-6">Proyectos</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
