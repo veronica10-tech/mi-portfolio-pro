@@ -68,7 +68,7 @@ export default function App() {
       <h3 className="text-sm font-bold text-amber-800 uppercase tracking-widest mb-4">Enfoque</h3>
       <h2 className="text-4xl font-bold mb-6">Cultura GitOps y Automatización End-to-End</h2>
       <p className="text-stone-700 leading-relaxed">
-        Como DevOps Engineer, mi enfoque consiste en erradicar los procesos manuales y asegurar la reproducibilidad de los entornos productivos.
+Mi trabajo se centra en diseñar arquitecturas altamente escalables sobre Microsoft Azure. Me especializo en orquestar servicios en la nube para automatizar flujos de trabajo, garantizando entornos de producción seguros, eficientes y alineados con las mejores prácticas de Azure DevOps y despliegue continuo.
       </p>
     </div>
 
