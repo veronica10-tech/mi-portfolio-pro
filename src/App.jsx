@@ -90,6 +90,37 @@ Mi trabajo se centra en diseñar arquitecturas altamente escalables sobre Micros
     </div>
   </div>
 </section>
+{/* SECCIÓN DEMO VISUAL - PIPELINE GITOPS */}
+<section id="pipeline" className="py-16 bg-[#0a192f] rounded-2xl p-8 mb-12 text-white">
+  <div className="text-center mb-10">
+    <h3 className="text-sm font-bold text-cyan-400 uppercase tracking-widest mb-2">Demo Visual</h3>
+    <h2 className="text-3xl font-bold">Simulación del Pipeline GitOps Activo</h2>
+  </div>
+
+  <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 overflow-x-auto p-6">
+    {[
+      { label: "Push (Git)", icon: "code" },
+      { label: "Build (Docker)", icon: "cog" },
+      { label: "Security (Secrets)", icon: "shield" },
+      { label: "K8s Deploy", icon: "cloud" }
+    ].map((step, index, array) => (
+      <div key={index} className="flex items-center">
+        {/* Nodo del pipeline */}
+        <div className="flex flex-col items-center group">
+          <div className="w-16 h-16 rounded-full border-2 border-emerald-500 flex items-center justify-center bg-[#0a192f] group-hover:bg-emerald-900/30 transition-all shadow-[0_0_15px_rgba(16,185,129,0.3)]">
+             <span className="text-2xl">✨</span> 
+          </div>
+          <span className="mt-3 text-xs font-semibold text-emerald-400">{step.label}</span>
+        </div>
+
+        {/* Línea conectora (no aparece tras el último) */}
+        {index < array.length - 1 && (
+          <div className="w-12 h-0.5 bg-emerald-700 mx-4 hidden md:block"></div>
+        )}
+      </div>
+    ))}
+  </div>
+</section>
         <section id="proyectos" className="mb-12">
           <h3 className="text-xl font-bold text-amber-900 mb-6">Proyectos</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
