@@ -91,7 +91,6 @@ Mi trabajo se centra en diseñar arquitecturas altamente escalables sobre Micros
     </div>
   </div>
 </section>
-import { GitBranch, Box, ShieldCheck, Cloud } from 'lucide-react';
 
 <section id="pipeline" className="py-16 bg-[#fdfbf7] rounded-2xl p-8 mb-12 border border-stone-200">
   <div className="text-center mb-12">
